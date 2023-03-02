@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3a5a85#3a5a85 #3a5a85#3a5a85 #3a5a85#3a5a85 #3a5a85#3a5a85;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.choosefighterController">
+   <children>
+      <ImageView fx:id="bus" fitHeight="94.0" fitWidth="166.0" layoutX="-275.0" layoutY="305.0">
+         <image>
+            <Image url="@../../../pngfind.com-school-bus-png-484796.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="394.0" layoutY="46.0">
+         <image>
+            <Image url="@../../../happy-girl-pointing-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="421.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#lara" prefHeight="44.0" prefWidth="146.0" style="-fx-background-color: #438390#438390; -fx-background-radius: 15;" text="Lara">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Button layoutX="49.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#alex" prefHeight="44.0" prefWidth="146.0" style="-fx-background-color: #438390#438390; -fx-background-radius: 15;" text="Alex">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="22.0" layoutY="46.0">
+         <image>
+            <Image url="@../../../happy-boy-hug-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutY="-2.0" prefHeight="48.0" prefWidth="601.0" style="-fx-background-color: #438390#438390 #438390#438390;" text="Choose your hero">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="207.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#backid" prefHeight="48.0" prefWidth="206.0" style="-fx-background-color: #0d5756#0d5756; -fx-background-radius: 15;" text="Back">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4426169693470001" green="0.4939571022987366" blue="0.5526315569877625" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="171.0" prefHeight="19.0" prefWidth="117.0" style="-fx-background-color: #4cc9a0#4cc9a0; -fx-background-radius: 16;" text="alex Power: 90">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="348.0" layoutY="171.0" prefHeight="19.0" prefWidth="117.0" style="-fx-background-color: #4cc9a0#4cc9a0; -fx-background-radius: 16;" text="lara Power: 65">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="348.0" layoutY="152.0" prefHeight="19.0" prefWidth="117.0" style="-fx-background-color: #4cc9a0#4cc9a0; -fx-background-radius: 16;" text="lara Speed: 50">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="152.0" prefHeight="19.0" prefWidth="117.0" style="-fx-background-color: #4cc9a0#4cc9a0; -fx-background-radius: 16;" text="alex Speed: 75">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="kid" fitHeight="90.0" fitWidth="86.0" layoutX="-85.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../cartoon-characters-png-44253(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="146.0" fitWidth="155.0" layoutX="356.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../—Pngtree—cartoon%20rhombus%20colored%20feather%20tribal_5846926.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="86.0" fitWidth="80.0" layoutX="14.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="178.0" layoutY="192.0" mnemonicParsing="false" onMouseClicked="#max" prefHeight="48.0" prefWidth="263.0" style="-fx-background-color: #438390#438390 #438390#438390; -fx-background-radius: 15;" text="Max levelء">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.4426169693470001" green="0.4939571022987366" blue="0.5526315569877625" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="347.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.chemclassController">
+   <children>
+      <ImageView fitHeight="359.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../360_F_331605882_ysLaVoLKYmRlF6SBpnqu9p9ZDShBMe3A.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="481.0" mnemonicParsing="false" onMouseClicked="#fire" prefHeight="41.0" prefWidth="119.0" style="-fx-background-color: #e8b97c#e8b97c; -fx-background-radius: 12;" text="&lt;-Move">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutY="288.0" mnemonicParsing="false" onMouseClicked="#end" prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: #e8b97c#e8b97c; -fx-background-radius: 12;" text="End Game">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="300.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: #e8b97c#e8b97c; -fx-background-radius: 12;" text="Back to Menu">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="-5.0" mnemonicParsing="false" onMouseClicked="#finalkill" prefHeight="41.0" prefWidth="131.0" style="-fx-background-color: #e8b97c#e8b97c; -fx-background-radius: 12;" text="Final kill">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="129.0" mnemonicParsing="false" onMouseClicked="#fight" prefHeight="41.0" prefWidth="131.0" style="-fx-background-color: #e8b97c#e8b97c; -fx-background-radius: 12;" text="Fight">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="stu" fitHeight="118.0" fitWidth="106.0" layoutX="472.0" layoutY="157.0">
+         <image>
+            <Image url="@../../../happy-girl-pointing-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ta" fitHeight="118.0" fitWidth="120.0" layoutY="154.0">
+         <image>
+            <Image url="@../../../mexican-fighter-cute-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="362.0" mnemonicParsing="false" onMouseClicked="#fireback" prefHeight="41.0" prefWidth="119.0" style="-fx-background-color: #e8b97c#e8b97c; -fx-background-radius: 12;" text="Move-&gt;">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="pic" fitHeight="265.0" fitWidth="368.0" layoutX="128.0" layoutY="-251.0">
+         <image>
+            <Image url="@../../../congratulations-to-you-quote-sentiment-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="200.0" layoutX="-52.0" layoutY="-288.0">
+         <image>
+            <Image url="@../../../Game-Over-Clipart-PNG.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="over" fitHeight="155.0" fitWidth="292.0" layoutX="-1316.0" layoutY="107.0">
+         <image>
+            <Image url="@../../../Game-Over-Clipart-PNG.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prof" fitHeight="118.0" fitWidth="90.0" layoutX="149.0" layoutY="46.0">
+         <image>
+            <Image url="@../../../kisspng-cartoon-businessperson-clip-art-serious-manager-5a6e37b1d07fb8.376258451517172657854.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="4.0" layoutY="58.0" prefHeight="19.0" prefWidth="132.0" style="-fx-background-color: #b50000#b50000; -fx-background-radius: 16;" text="lara Health: 100">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="4.0" layoutY="77.0" prefHeight="19.0" prefWidth="106.0" style="-fx-background-color: #40ff36#40ff36; -fx-background-radius: 16;" text="lara Power: 65">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="257.0" mnemonicParsing="false" onMouseClicked="#shoot" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #ff8a1f#ff8a1f; -fx-background-radius: 12;" text="Fire">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="sp" fitHeight="118.0" fitWidth="138.0" layoutX="472.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

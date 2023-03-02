@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="379.0" prefWidth="581.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.mathclassController">
+   <children>
+      <ImageView fitHeight="350.0" fitWidth="622.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../empty-classroom-school-education-background-2GD42F5.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="310.0" layoutY="306.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="73.0" prefWidth="289.0" style="-fx-background-color: #277c7c#277c7c; -fx-background-radius: 1;" text="Back to Menu" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button layoutY="306.0" mnemonicParsing="false" onMouseClicked="#end" prefHeight="73.0" prefWidth="309.0" style="-fx-background-color: #277c7c#277c7c; -fx-background-radius: 1;" text="End Game" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="prof" fitHeight="135.0" fitWidth="106.0" layoutX="375.0" layoutY="62.0">
+         <image>
+            <Image url="@../../../kisspng-cartoon-businessperson-clip-art-serious-manager-5a6e37b1d07fb8.376258451517172657854.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stu" fitHeight="111.0" fitWidth="98.0" layoutX="489.0" layoutY="197.0">
+         <image>
+            <Image url="@../../../happy-girl-pointing-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ta" fitHeight="111.0" fitWidth="98.0" layoutX="76.0" layoutY="155.0">
+         <image>
+            <Image url="@../../../s-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ta2" fitHeight="103.0" fitWidth="106.0" layoutX="38.0" layoutY="202.0">
+         <image>
+            <Image url="@../../../redhead-boy-running-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pic" fitHeight="265.0" fitWidth="368.0" layoutX="129.0" layoutY="-265.0">
+         <image>
+            <Image url="@../../../congratulations-to-you-quote-sentiment-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="over" fitHeight="155.0" fitWidth="292.0" layoutX="-1306.0" layoutY="117.0">
+         <image>
+            <Image url="@../../../Game-Over-Clipart-PNG.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="484.0" mnemonicParsing="false" onMouseClicked="#fire" prefHeight="41.0" prefWidth="115.0" style="-fx-background-color: #277c7c#277c7c #277c7c#277c7c; -fx-background-radius: 12;" text="&lt;-Move">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="366.0" mnemonicParsing="false" onMouseClicked="#fireback" prefHeight="41.0" prefWidth="115.0" style="-fx-background-color: #277c7c#277c7c #277c7c#277c7c; -fx-background-radius: 12;" text="Move-&gt;">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="129.0" mnemonicParsing="false" onMouseClicked="#fight" prefHeight="41.0" prefWidth="125.0" style="-fx-background-color: #277c7c#277c7c #277c7c#277c7c #277c7c#277c7c #277c7c#277c7c; -fx-background-radius: 12;" text="Fight">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onMouseClicked="#finalkill" prefHeight="41.0" prefWidth="125.0" style="-fx-background-color: #277c7c#277c7c #277c7c#277c7c #277c7c#277c7c #277c7c#277c7c; -fx-background-radius: 12;" text="Final kill">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="12.0" layoutY="53.0" prefHeight="19.0" prefWidth="132.0" style="-fx-background-color: #b50000#b50000; -fx-background-radius: 16;" text="lara Health: 100">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="13.0" layoutY="72.0" prefHeight="19.0" prefWidth="98.0" style="-fx-background-color: #0dd324#0dd324; -fx-background-radius: 16;" text="lara Power: 65">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9736841917037964" green="0.9736841917037964" blue="0.9736841917037964" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="255.0" mnemonicParsing="false" onMouseClicked="#shoot" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #7efff0#7efff0; -fx-background-radius: 12;" text="Fire">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="sp" fitHeight="118.0" fitWidth="138.0" layoutX="483.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="485.0" layoutY="42.0" mnemonicParsing="false" onMouseClicked="#up" prefHeight="41.0" prefWidth="115.0" style="-fx-background-color: #277c7c#277c7c #277c7c#277c7c; -fx-background-radius: 12;" text="(up)Move">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="366.0" layoutY="42.0" mnemonicParsing="false" onMouseClicked="#down" prefHeight="41.0" prefWidth="115.0" style="-fx-background-color: #277c7c#277c7c #277c7c#277c7c; -fx-background-radius: 12;" text="(dn)Move">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

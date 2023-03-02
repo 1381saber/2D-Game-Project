@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="361.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.infoController">
+   <children>
+      <ImageView fitHeight="361.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pic2.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: #ad7145#ad7145;" text="Programmer info">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="-1.0" layoutY="299.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="62.0" prefWidth="600.0" style="-fx-background-color: #ad7145#ad7145 #ad7145#ad7145;" text="Back to Menu">
+         <font>
+            <Font size="33.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+      <Label alignment="CENTER" layoutX="15.0" layoutY="95.0" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #ad7145#ad7145; -fx-background-radius: 19;" text="Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="15.0" layoutY="164.0" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #ad7145#ad7145; -fx-background-radius: 19;" text="University">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="15.0" layoutY="236.0" prefHeight="47.0" prefWidth="170.0" style="-fx-background-color: #ad7145#ad7145; -fx-background-radius: 19;" text="Email">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="214.0" layoutY="95.0" prefHeight="47.0" prefWidth="321.0" style="-fx-background-color: #512f18#512f18; -fx-background-radius: 19;" text="Saber Sabzi" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="214.0" layoutY="164.0" prefHeight="47.0" prefWidth="321.0" style="-fx-background-color: #512f18#512f18; -fx-background-radius: 19;" text="CE at University of Isfahan" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="214.0" layoutY="236.0" prefHeight="47.0" prefWidth="321.0" style="-fx-background-color: #512f18#512f18; -fx-background-radius: 19;" text="sabersabzi2002@gmail.com" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

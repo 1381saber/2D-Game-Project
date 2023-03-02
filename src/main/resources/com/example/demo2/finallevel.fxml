@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="557.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.finallevelController">
+   <children>
+      <ImageView fitHeight="461.0" fitWidth="849.0" onMouseClicked="#power" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../classroom-for-biology-learning-with-graph-on-chalkboard-posters-with-human-organs-and-plant-on-wall-vector-cartoon-illustration-of-empty-school-class-interior-with-teacher-desk-books-and-microscope-2G62JHT.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutY="508.0" mnemonicParsing="false" onMouseClicked="#end" prefHeight="49.0" prefWidth="426.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="End game" textFill="#411780">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="409.0" layoutY="508.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="49.0" prefWidth="440.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="Back" textFill="#25015e">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="702.0" layoutY="338.0" prefHeight="170.0" prefWidth="147.0" style="-fx-background-color: #483861#483861; -fx-background-radius: 3;" textFill="#446ca1" />
+      <ImageView fitHeight="130.0" fitWidth="134.0" layoutX="711.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../happy-girl-pointing-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="556.0" layoutY="338.0" prefHeight="170.0" prefWidth="147.0" style="-fx-background-color: #483861#483861; -fx-background-radius: 3;" textFill="#446ca1" />
+      <Label layoutX="409.0" layoutY="338.0" prefHeight="170.0" prefWidth="147.0" style="-fx-background-color: #483861#483861; -fx-background-radius: 3;" textFill="#446ca1" />
+      <Label layoutX="262.0" layoutY="338.0" prefHeight="170.0" prefWidth="147.0" style="-fx-background-color: #483861#483861; -fx-background-radius: 3;" textFill="#446ca1" />
+      <Label layoutY="330.0" prefHeight="17.0" prefWidth="849.0" style="-fx-background-color: #8870ab#8870ab #8870ab#8870ab; -fx-background-radius: 3;" textFill="#446ca1" />
+      <ImageView fitHeight="119.0" fitWidth="130.0" layoutX="592.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="120.0" layoutX="446.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../happy-boy-hug-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="119.0" layoutX="284.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../45.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="730.0" layoutY="485.0" prefHeight="23.0" prefWidth="119.0" style="-fx-background-color: #522279#522279; -fx-background-radius: 2;" text="Lara" textFill="WHITE">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="574.0" layoutY="485.0" prefHeight="23.0" prefWidth="156.0" style="-fx-background-color: #522279#522279; -fx-background-radius: 2;" text="Bob" textFill="WHITE">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="367.0" layoutY="485.0" prefHeight="23.0" prefWidth="249.0" style="-fx-background-color: #522279#522279; -fx-background-radius: 2;" text="Alex" textFill="WHITE">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="262.0" layoutY="485.0" prefHeight="23.0" prefWidth="156.0" style="-fx-background-color: #522279#522279; -fx-background-radius: 2;" text="Simon" textFill="WHITE">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="711.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#ulara1" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="use" textFill="#25015e">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="711.0" layoutY="435.0" mnemonicParsing="false" onMouseClicked="#ulara2" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="use 2" textFill="#25015e">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="565.0" layoutY="435.0" mnemonicParsing="false" onMouseClicked="#ubob2" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="use 2" textFill="#25015e">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="565.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#ubob1" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="use" textFill="#25015e">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="418.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#ualex1" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="use" textFill="#25015e">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="418.0" layoutY="435.0" mnemonicParsing="false" onMouseClicked="#ualex2" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="use 2" textFill="#25015e">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="266.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#usim1" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="use" textFill="#25015e">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="266.0" layoutY="435.0" mnemonicParsing="false" onMouseClicked="#usim2" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #8870ab#8870ab; -fx-background-radius: 2;" text="use 2" textFill="#25015e">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label layoutY="347.0" prefHeight="162.0" prefWidth="266.0" style="-fx-background-color: #8870ab#8870ab #8870ab#8870ab; -fx-background-radius: 3;" textFill="#446ca1" />
+      <Button layoutX="9.0" layoutY="347.0" mnemonicParsing="false" onMouseClicked="#firerain" prefHeight="49.0" prefWidth="249.0" style="-fx-background-color: #483861#483861 #483861#483861; -fx-background-radius: 8;" text="fire rain" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="9.0" layoutY="403.0" mnemonicParsing="false" onMouseClicked="#extra" prefHeight="51.0" prefWidth="249.0" style="-fx-background-color: #483861#483861 #483861#483861; -fx-background-radius: 8;" text="extra power" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="9.0" layoutY="460.0" mnemonicParsing="false" onMouseClicked="#finalkill" prefHeight="51.0" prefWidth="249.0" style="-fx-background-color: #483861#483861 #483861#483861; -fx-background-radius: 8;" text="final kill" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="over" fitHeight="155.0" fitWidth="292.0" layoutX="-2097.0" layoutY="122.0">
+         <image>
+            <Image url="@../../../Game-Over-Clipart-PNG.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pic" fitHeight="265.0" fitWidth="368.0" layoutX="281.0" layoutY="-281.0">
+         <image>
+            <Image url="@../../../congratulations-to-you-quote-sentiment-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain1" fitHeight="89.0" fitWidth="86.0" layoutX="231.0" layoutY="-141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain2" fitHeight="89.0" fitWidth="86.0" layoutX="579.0" layoutY="-105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain3" fitHeight="89.0" fitWidth="86.0" layoutX="378.0" layoutY="-105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain4" fitHeight="89.0" fitWidth="86.0" layoutX="336.0" layoutY="-97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain5" fitHeight="89.0" fitWidth="86.0" layoutX="561.0" layoutY="-97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain6" fitHeight="89.0" fitWidth="86.0" layoutX="461.0" layoutY="-105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain7" fitHeight="89.0" fitWidth="86.0" layoutX="144.0" layoutY="-132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain8" fitHeight="89.0" fitWidth="86.0" layoutX="103.0" layoutY="-105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain9" fitHeight="89.0" fitWidth="86.0" layoutX="241.0" layoutY="-131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain10" fitHeight="89.0" fitWidth="86.0" layoutX="241.0" layoutY="-131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain11" fitHeight="89.0" fitWidth="86.0" layoutX="200.0" layoutY="-105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain12" fitHeight="89.0" fitWidth="86.0" layoutX="579.0" layoutY="-105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain13" fitHeight="89.0" fitWidth="86.0" layoutX="621.0" layoutY="-97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain14" fitHeight="89.0" fitWidth="86.0" layoutX="672.0" layoutY="-122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain141" fitHeight="89.0" fitWidth="86.0" layoutX="714.0" layoutY="-105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain142" fitHeight="89.0" fitWidth="86.0" layoutX="553.0" layoutY="-121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain143" fitHeight="89.0" fitWidth="86.0" layoutX="506.0" layoutY="-121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="firerain144" fitHeight="89.0" fitWidth="86.0" layoutX="14.0" layoutY="-113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../58a1e021e33a543010fac278.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="welcome" fitHeight="198.0" fitWidth="266.0" layoutX="-278.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../—Pngtree—start%20button%20in%20pixel%20art_7949383.png" />
+         </image></ImageView>
+      <ImageView fx:id="ta1" fitHeight="136.0" fitWidth="141.0" layoutX="-442.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../22.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ta11" fitHeight="119.0" fitWidth="113.0" layoutX="-306.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../s-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ta111" fitHeight="113.0" fitWidth="103.0" layoutX="-268.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../mexican-fighter-cute-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ta1111" fitHeight="113.0" fitWidth="103.0" layoutX="-545.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../mexican-fighter-cute-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ta1112" fitHeight="113.0" fitWidth="103.0" layoutX="-409.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../backpack-boy-greeting-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="use1" fitHeight="113.0" fitWidth="113.0" layoutX="731.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../happy-girl-pointing-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="724.0" layoutY="-8.0" prefHeight="355.0" prefWidth="21.0" style="-fx-background-color: #8870ab#8870ab #8870ab#8870ab; -fx-background-radius: 3;" textFill="#446ca1" />
+      <ImageView fx:id="use11" fitHeight="113.0" fitWidth="113.0" layoutX="731.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../happy-girl-pointing-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="use2" fitHeight="119.0" fitWidth="130.0" layoutX="728.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="use22" fitHeight="119.0" fitWidth="130.0" layoutX="728.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="use3" fitHeight="119.0" fitWidth="120.0" layoutX="730.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../happy-boy-hug-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="use33" fitHeight="119.0" fitWidth="120.0" layoutX="730.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../happy-boy-hug-character-by-Vexels.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="use4" fitHeight="119.0" fitWidth="119.0" layoutX="730.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../45.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="use44" fitHeight="119.0" fitWidth="119.0" layoutX="730.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../45.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
