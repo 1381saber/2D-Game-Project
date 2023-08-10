@@ -23,3 +23,33 @@ Prerequisites
 
     Java Development Kit (JDK) 8 or later
     JavaFX library
+
+        The JavaFX Student Showdown Game should now launch and be ready for play.
+
+Gameplay
+
+    Character Selection:
+        At the start of the game, choose your character from the available options.
+        Each character has unique stats, abilities, and appearances.
+
+    Battle System:
+        Engage in battles by selecting attacks, skills, and defenses from the on-screen options.
+        Pay attention to the health and energy bars of both your character and the opponent.
+
+    Level Progression:
+        Successfully defeat opponents to progress to higher levels.
+        Each level presents new challenges and opponents with different strategies.
+
+    Power-ups:
+        During battles, collect power-ups that appear on the screen to enhance your character's abilities or restore health.
+
+Contributing
+
+Contributions are welcome! If you're interested in improving the game or adding new features, feel free to submit a pull request. Make sure to adhere to the project's coding standards and provide clear documentation for your changes.
+License
+
+This project is licensed under the University of Isfahan License.
+Acknowledgments
+
+    The game was developed as a showcase of Java and JavaFX programming skills.
+    Special thanks to the JavaFX community for providing resources and support.
