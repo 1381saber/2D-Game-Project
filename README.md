@@ -53,3 +53,7 @@ Acknowledgments
 
     The game was developed as a showcase of Java and JavaFX programming skills.
     Special thanks to the JavaFX community for providing resources and support.
+
+<img width="595" alt="Screenshot 1402-05-19 at 21 46 07" src="https://github.com/1381saber/2D-Game-Project/assets/87490751/fa673fe9-fe3a-4dec-9b87-6b683289206a">
+<img width="594" alt="Screenshot 1402-05-19 at 21 47 02" src="https://github.com/1381saber/2D-Game-Project/assets/87490751/65e3e5f3-5d1f-43f9-b08c-5fbb0095b654">
+<img width="594" alt="Screenshot 1402-05-19 at 21 47 28" src="https://github.com/1381saber/2D-Game-Project/assets/87490751/8332b340-c557-4731-94fe-337b052640b6">
